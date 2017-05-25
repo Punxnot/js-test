@@ -1,86 +1,86 @@
 var quizQuestions = [
   {
-      question: "What dish do you prefer?",
+      question: "1 + 1?",
       answers: [
           {
-              type: "Fish",
-              content: "Fish soup"
+              type: "Correct",
+              content: "Two"
           },
           {
-              type: "Meat",
-              content: "Chili con carne"
+              type: "Incorrect",
+              content: "One"
           },
           {
-              type: "Vegetables",
-              content: "Salad"
+              type: "Incorrect",
+              content: "Three"
           }
       ]
   },
   {
-      question: "Which do you like more?",
+      question: "5 + 5?",
       answers: [
           {
-              type: "Fish",
-              content: "Sea"
+              type: "Correct",
+              content: "Ten"
           },
           {
-              type: "Meat",
-              content: "City"
+              type: "Incorrect",
+              content: "Eleven"
           },
           {
-              type: "Vegetables",
-              content: "Forest"
+              type: "Incorrect",
+              content: "Twelve"
           }
       ]
   },
   {
-      question: "What do you like to do?",
+      question: "1 + 2?",
       answers: [
           {
-              type: "Fish",
-              content: "Swim"
+              type: "Correct",
+              content: "Three"
           },
           {
-              type: "Meat",
-              content: "Lie"
+              type: "Incorrect",
+              content: "Four"
           },
           {
-              type: "Vegetables",
-              content: "Run"
+              type: "Incorrect",
+              content: "Five"
           }
       ]
   },
   {
-      question: "Which of these games do you think is best?",
+      question: "3 + 3?",
       answers: [
           {
-              type: "Fish",
-              content: "SwimmingFish"
+              type: "Correct",
+              content: "Six"
           },
           {
-              type: "Meat",
-              content: "Funny sausages"
+              type: "Incorrect",
+              content: "Seven"
           },
           {
-              type: "Vegetables",
-              content: "Evil cabbage"
+              type: "Incorrect",
+              content: "Eight"
           }
       ]
   },
   {
-      question: "What pet would you prefer to own?",
+      question: "7 + 1?",
       answers: [
           {
-              type: "Fish",
-              content: "Goldfish"
+              type: "Correct",
+              content: "Eight"
           },
           {
-              type: "Meat",
-              content: "Pig"
+              type: "Incorrect",
+              content: "Nine"
           },
           {
-              type: "Vegetables",
-              content: "Flower"
+              type: "Incorrect",
+              content: "Ten"
           }
       ]
   }
