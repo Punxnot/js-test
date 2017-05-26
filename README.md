@@ -114,7 +114,7 @@ We are always open to [your feedback](https://github.com/facebookincubator/creat
 After creation, your project should look like this:
 
 ```
-my-app/
+js-test/
   README.md
   node_modules/
   package.json
@@ -1648,7 +1648,7 @@ For more information see [Add Firebase to your JavaScript Project](https://fireb
 Open your `package.json` and add a `homepage` field:
 
 ```js
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://myusername.github.io/js-test",
 ```
 
 Create React App uses the `homepage` field to determine the root URL in the built HTML file.
@@ -1657,7 +1657,7 @@ Create React App uses the `homepage` field to determine the root URL in the buil
 
 Now, whenever you run `npm run build`, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
 
-To publish it at [https://myusername.github.io/my-app](https://myusername.github.io/my-app), run:
+To publish it at [https://myusername.github.io/js-test](https://myusername.github.io/js-test), run:
 
 ```sh
 npm install --save-dev gh-pages

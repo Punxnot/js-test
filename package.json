@@ -2,7 +2,7 @@
   "name": "js-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://myusername.github.io/js-test",
   "dependencies": {
     "react": "^15.5.4",
     "react-addons-update": "^15.5.2",
