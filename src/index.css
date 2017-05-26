@@ -8,7 +8,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #eee;
   font-family: sans-serif;
 }
 
@@ -32,6 +31,11 @@ body {
 }
 
 /* Quiz Component */
+.quiz {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .answerOptions {
   margin: 0;
   padding: 0;
@@ -48,6 +52,11 @@ body {
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+code {
+  display: inline-block;
+  text-align: left;
 }
 
 /* AnswerOption Component */
@@ -76,17 +85,18 @@ body {
     position: relative;
     width: 100%;
     margin: 0;
-    padding: 1.5rem 2.5rem 1.5rem 5rem;
+    padding: 1rem 2.5rem 1rem 5rem;
     font-size: 16px;
     line-height: 1.5;
+    text-align: left;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {
     position: absolute;
-    top: 20px;
+    top: 17px;
     left: 38px;
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -99,7 +109,7 @@ body {
 .radioCustomButton:checked ~ .radioCustomLabel:before {
     content: '';
     background: #8BC53F url(./svg/icon-check.svg) no-repeat;
-    background-size: 27px;
+    background-size: 19px;
     border-color: #8BC53F;
 }
 
